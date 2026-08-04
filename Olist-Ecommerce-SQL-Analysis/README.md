@@ -178,8 +178,8 @@ Performed comprehensive validation checks including:
 
 ### Sample Output
 
-![04_Data Validation_01](Images/04_Data_Validation_01.png)
-
+![04_Data Validation_01](Images/04_Data_Validation_01.PNG)
+![04_Data Validation_02](Images/04_Data_Validation_02.PNG)
 ---
 
 ## 05 Business Understanding
@@ -199,8 +199,8 @@ Calculated key business KPIs including:
 
 ### Sample Output
 
-![05_Business Understanding_01](Images/05_Business_Understanding_01.png)
-
+![05_Business Understanding_01](Images/05_Business_Understanding_01.PNG)
+![05_Business Understanding_02](Images/05_Business_Understanding_02.PNG)
 ---
 
 ## 06 Exploratory Data Analysis
@@ -220,7 +220,8 @@ Topics covered:
 
 ### Sample Output
 
-![06_EDA_01](Images/06_EDA_01.png)
+![06_EDA_01](Images/06_EDA_01.PNG)
+![06_EDA_21](Images/06_EDA_02.PNG)
 
 ---
 
@@ -239,7 +240,7 @@ Applied advanced SQL concepts including:
 
 ### Sample Output
 
-![07_Advanced SQL_Analysis](Images/07_Advanced_SQL_Analysis.png)
+![07_Advanced SQL_Analysis](Images/07_Advanced_SQL_Analysis.PNG)
 
 ---
 
@@ -256,7 +257,7 @@ Generated actionable insights related to:
 
 ### Sample Output
 
-![08_Business Insights](Images/08_Business_Insights.png)
+![08_Business Insights](Images/08_Business_Insights.PNG)
 
 ---
 
@@ -294,7 +295,7 @@ Developed an interactive dashboard to visualize marketplace performance.
 
 ### Dashboard Preview
 
-![Dashboard](Images/Dashboard.png)
+![Dashboard](Images/Dashboard.PNG)
 
 ---
 
