@@ -1,28 +1,65 @@
-# 🖼️ Project Images
+# Project Images
 
-## Description
+## Overview
 
-This folder contains screenshots used throughout the project documentation.
+This folder contains all screenshots and diagrams used in the documentation of the **Olist E-commerce SQL Analysis** project.
 
-The images provide visual evidence of the project workflow, SQL validation, and Power BI dashboard.
+These images provide visual evidence of the database design, SQL analysis, business insights, and Power BI dashboard developed during the project.
 
 ---
 
-## Images Included
+# Image Descriptions
 
 | Image | Description |
 |--------|-------------|
-| er_diagram.png | Database schema and relationships |
-| data_validation_1.png | SQL data validation results (Part 1) |
-| data_validation_2.png | SQL data validation results (Part 2) |
-| dashboard.png | Final Power BI dashboard |
-| monthly_revenue.png | Monthly revenue trend visualization |
-| top_categories.png | Top product categories by revenue |
-| customer_states.png | Revenue by customer state |
-| review_distribution.png | Customer review score distribution |
+| **01_Database_Schema.PNG** | Entity Relationship (Database Schema) showing the relationships between fact and dimension tables. |
+| **04_Data_Validation_01.PNG** | Data validation results including row count verification, duplicate checks, and NULL value validation. |
+| **04_Data_Validation_02.PNG** | Additional data validation results covering date validation, payment types, review scores, and order status verification. |
+| **05_Business_Understanding_01.PNG** | Business Understanding KPIs including Total Customers, Orders, Products, Sellers, Revenue, and Average Order Value. |
+| **05_Business_Understanding_02.PNG** | Additional business KPIs including Review Scores, Payment Methods, Order Status, Date Ranges, Freight Cost, and Product Price analysis. |
+| **06_EDA_01.PNG** | Exploratory Data Analysis showing sales trends, customer behaviour, and product performance. |
+| **06_EDA_02.PNG** | Additional Exploratory Data Analysis covering seller performance, revenue analysis, customer distribution, and shipping insights. |
+| **07_Advanced_SQL_Analysis.PNG** | Results of advanced SQL queries using Window Functions, CTEs, Ranking Functions, CASE statements, and Subqueries. |
+| **08_Business_Insights.PNG** | Business insights generated from SQL analysis with recommendations based on customer behaviour, revenue trends, and marketplace performance. |
+| **09_Views_and_Stored_Procedures.PNG** | Demonstration of reusable SQL Views and Stored Procedures created for reporting and business analysis. |
+| **Dashboard.PNG** | Interactive Power BI dashboard summarizing key business metrics, revenue trends, customer analysis, product performance, and review insights. |
+| **ER_Diagram.png** | Detailed Entity Relationship Diagram (ERD) designed using Draw.io illustrating the complete star schema of the Olist database. |
 
 ---
 
-## Purpose
+# Purpose
 
-These screenshots are referenced throughout the project README to illustrate the analysis process and final business dashboard.
+These screenshots are included to:
+
+- Document each stage of the project.
+- Demonstrate SQL query outputs.
+- Validate data quality.
+- Present business analysis results.
+- Showcase dashboard development.
+- Improve project documentation for recruiters and hiring managers.
+
+---
+
+# Project Workflow
+
+```
+Database Design
+      ↓
+Data Validation
+      ↓
+Business Understanding
+      ↓
+Exploratory Data Analysis
+      ↓
+Advanced SQL Analysis
+      ↓
+Business Insights
+      ↓
+Views & Stored Procedures
+      ↓
+Power BI Dashboard
+```
+
+---
+
+All screenshots were generated during the development of this project using **MySQL Workbench**, **Power BI Desktop**, and **Draw.io**.
