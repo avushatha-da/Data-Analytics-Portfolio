@@ -1,10 +1,3 @@
-
----
-
-# 2. `Power_BI/README.md`
-
-This one should focus **only on your Power BI dashboard**, not database creation or SQL.
-
 ```markdown
 # Power BI – HR Employee Attrition Analysis
 
