@@ -1,187 +1,60 @@
-# HR Employee Attrition Analysis — SQL
+# SQL – HR Employee Attrition Analysis
 
-## Overview
+## 📊 Overview
 
-This folder contains the complete SQL analysis for the **HR Employee Attrition Analysis** project.
+This section of the project focuses on analyzing employee attrition using SQL.
 
-The analysis was performed using **MySQL** to clean, validate, explore, and analyse employee data to identify workforce patterns and factors associated with employee attrition.
+The analysis follows a structured workflow beginning with database creation and data import, followed by data validation, business understanding, exploratory analysis, advanced SQL analysis, business insights, views, and stored procedures.
 
-The SQL workflow progresses from database setup and data validation to exploratory analysis, advanced SQL techniques, business insights, reusable views, and stored procedures.
-
----
-
-## Objectives
-
-The SQL analysis was designed to:
-
-- Understand the overall workforce structure
-- Measure employee attrition
-- Identify departments and job roles with higher attrition
-- Analyse the relationship between attrition and overtime
-- Explore employee satisfaction and work-life balance
-- Analyse employee demographics and compensation
-- Identify potential high-risk employee segments
-- Apply advanced SQL techniques
-- Create reusable SQL views
-- Create parameterized stored procedures
-- Generate insights that support HR decision-making
+The objective is to transform raw HR employee data into meaningful business information that can support employee retention and workforce planning decisions.
 
 ---
 
-## SQL Project Structure
+## 🎯 Objectives
 
-| Module | File | Purpose |
-|---|---|---|
-| 01 | `01_Database_Creation.sql` | Creates the HR analysis database |
-| 02 | `02_Table_Creation.sql` | Creates the employee data table |
-| 03 | `03_Data_Import.sql` | Imports the cleaned HR dataset |
-| 04 | `04_Data_Validation.sql` | Validates records, NULL values, duplicates, and data consistency |
-| 05 | `05_Business_Understanding.sql` | Calculates key HR business KPIs |
-| 06 | `06_Exploratory_Data_Analysis.sql` | Explores employee attrition patterns |
-| 07 | `07_Advanced_SQL_Analysis.sql` | Applies CTEs, ranking, window functions, and advanced SQL |
-| 08 | `08_Business_Insights.sql` | Converts analysis into actionable HR insights |
-| 09 | `09_Views.sql` | Creates reusable analytical SQL views |
-| 10 | `10_Stored_Procedures.sql` | Creates reusable parameterized stored procedures |
-
----
-
-## Key SQL Techniques Used
-
-### Basic SQL
-
-- `SELECT`
-- `WHERE`
-- `GROUP BY`
-- `ORDER BY`
-- `HAVING`
-- Aggregate functions
-- `COUNT()`
-- `SUM()`
-- `AVG()`
-- `MIN()`
-- `MAX()`
-
-### Conditional Analysis
-
-- `CASE`
-- Conditional aggregation
-- Attrition rate calculations
-
-### Advanced SQL
-
-- Common Table Expressions (CTEs)
-- Window Functions
-- `RANK()`
-- `DENSE_RANK()`
-- Multi-dimensional analysis
-- Employee risk classification
-
-### Database Objects
-
-- SQL Views
-- Stored Procedures
-- Input parameters
-- `CREATE OR REPLACE VIEW`
-- `CREATE PROCEDURE`
-- `CALL`
+- Create and configure the HR analytics database.
+- Create the required database tables.
+- Import the employee attrition dataset.
+- Validate data quality and consistency.
+- Define business questions and KPIs.
+- Perform exploratory data analysis.
+- Apply advanced SQL techniques.
+- Identify employee attrition patterns.
+- Generate business insights.
+- Create reusable SQL views.
+- Develop stored procedures for repeated analysis.
 
 ---
 
-## Key Business KPIs
+## 🛠️ Tools Used
 
-The SQL analysis calculates important HR metrics including:
-
-- Total Employees
-- Employees Left
-- Active Employees
-- Attrition Rate
-- Average Monthly Income
-- Average Employee Age
-- Total Employees by Department
-- Employees by Job Role
-- Employee Attrition by Department
-- Employee Attrition by Job Role
-- Overtime Distribution
-- Business Travel Distribution
-- Job Satisfaction Distribution
-- Work-Life Balance Distribution
-- Salary Band Analysis
-- Age Group Analysis
+- MySQL
+- SQL
+- MySQL Workbench
+- Excel / Power Query for data preparation
 
 ---
 
-## Exploratory Data Analysis
-
-Employee attrition was explored across multiple workforce dimensions, including:
-
-- Department
-- Job Role
-- Gender
-- Marital Status
-- Age Group
-- Salary Band
-- Years at Company
-- Overtime
-- Business Travel
-- Job Satisfaction
-- Work-Life Balance
-- Education Field
-- Job Level
-
-The analysis calculates employee counts, employees who left, and attrition rates across these categories.
-
----
-
-## Advanced SQL Analysis
-
-The project applies advanced SQL techniques to identify and rank higher-risk workforce segments.
-
-Examples include:
-
-- Departments ranked by attrition rate
-- Job roles ranked by attrition rate
-- Salary bands ranked by attrition
-- Age groups ranked by attrition
-- Overtime-based attrition comparison
-- Job satisfaction and overtime analysis
-- Multi-factor employee risk classification
-- Top job roles based on observed attrition rates
-
-These analyses demonstrate the use of CTEs, window functions, ranking functions, conditional aggregation, and `CASE` statements.
-
----
-
-## Business Insights
-
-The SQL analysis was used to identify employee groups with higher observed attrition and potential retention risks.
-
-Areas investigated include:
-
-- Departments with higher attrition
-- Job roles with higher turnover
-- Employees working overtime
-- Employees with lower job satisfaction
-- Early-tenure employees
-- Lower salary groups
-- Business travel categories
-- Combined overtime and satisfaction conditions
-
-The results are intended to support HR decision-making and retention strategies.
-
-> **Note:** The analysis identifies relationships and patterns in the dataset. It does not establish that a particular factor directly causes employee attrition.
-
----
-
-## SQL Views
-
-Reusable analytical views were created to simplify recurring analysis and provide structured datasets for reporting.
-
-### Views Created
+# 🔄 SQL Analysis Workflow
 
 ```text
-vw_employee_attrition_summary
-vw_department_attrition
-vw_jobrole_attrition
-vw_employee_risk
-vw_overtime_attrition
-vw_satisfaction_attrition
+Database Creation
+       ↓
+Table Creation
+       ↓
+Data Import
+       ↓
+Data Validation
+       ↓
+Business Understanding
+       ↓
+Exploratory Data Analysis
+       ↓
+Advanced SQL Analysis
+       ↓
+Business Insights
+       ↓
+SQL Views
+       ↓
+Stored Procedures
+
